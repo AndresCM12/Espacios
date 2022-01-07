@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Binary-Finery:Bungee:3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fda380bf3bd1e8e8527f899c4dfc3657/transformed/jetified-Bungee-3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fda380bf3bd1e8e8527f899c4dfc3657/transformed/jetified-Bungee-3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fda380bf3bd1e8e8527f899c4dfc3657/transformed/jetified-Bungee-3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Binary-Finery/Bungee/3.0/367ee338a1363f6f93924828b7ab2c4820d31d77/Bungee-3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bac"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtVwT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:text="Introduce Bien Los Datos"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/txtVwC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="¿Cuál es el formato correcto?"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVwR"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Asegurate de que los valores que estás introduciendo sean números y estén cumpliendo con las matrices aceptadas, ejemplo: "
+        android:textSize="14sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="269dp"
+        android:layout_height="168dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:alignmentMode="alignBounds"
+        android:background="@drawable/repeat_grid_2"
+
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMenos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533">
+
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:enabled="false"
+            android:foregroundGravity="center_horizontal"
+            android:hint="4"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="5"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt3"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="6"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt6"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="7"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt7"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="2"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt8"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="1"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt11"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="3"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt12"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="0"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txt13"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="2"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txtA"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txtB"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txtC"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="160dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rectangle_9"
+        android:text="Entiendo"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

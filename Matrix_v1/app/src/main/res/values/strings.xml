@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Espacios vectoriales</string>
+    <string name="btnUno">Combinación Lineal   </string>
+    <string name="btnDos">Independencia Lineal   </string>
+    <string name="btnTres">Conjunto generador   </string>
+    <string name="btnCuatro">Ortonormalización   </string>
+    <string name="btnMas">+</string>
+    <string name="btnMenos">-</string>
+    <string name="txtUno">Última iteración en</string>
+    <string name="txtDos">Gauss-Jordan</string>
+    <string name="porque">¿Por qué?</string>
+    <string name="pasos">Ver pasos Gauss-Jordan</string>
+    <string name="regresar">Regresar</string>
+
+</resources>

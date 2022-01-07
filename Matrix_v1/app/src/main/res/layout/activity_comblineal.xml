@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CombLinealActivity">
+
+
+    <Button
+        android:id="@+id/btnVolver3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/volver"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Regresar"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline3"
+        app:layout_constraintBottom_toBottomOf="@id/guideline4"/>
+
+
+
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rectangle_9"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Comprobar"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        app:layout_constraintRight_toRightOf="@id/guideline8"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:id="@+id/constraint"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guideline5"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="@id/guideline2"
+        android:background="@drawable/repeat_grid_2"
+        android:elevation="6dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            app:layout_constraintBottom_toBottomOf="@id/guidel2"
+            app:layout_constraintLeft_toLeftOf="@id/guidel"
+            app:layout_constraintRight_toRightOf="@id/guidel"
+            app:layout_constraintTop_toTopOf="@id/guidel2">
+
+            <EditText
+                android:id="@+id/txt1"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt2"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt3"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt6"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt7"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt8"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt11"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt12"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txt13"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtA"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtB"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="3"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtC"
+                android:textSize="14sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="3"
+                android:enabled="false"
+                android:inputType="numberDecimal|numberSigned"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+        </GridLayout>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="266dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/constraint">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginBottom="140dp"
+            android:foregroundGravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtResultado4"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:text="ejemplo"
+                    android:textColor="@color/gris"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/txtResultado5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:text="@string/porque"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/txtResultado6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-light"
+                    android:foregroundGravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="ejemplo"
+                    android:textColor="@color/gris"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/pasosComb"
+                    android:layout_width="177dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/repeat_grid_1"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="pasos para escalares"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp"
+                    android:visibility="invisible"
+                    tools:layout_editor_absoluteX="217dp"
+                    tools:layout_editor_absoluteY="462dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".85"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".92"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".15"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".08"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".585"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline777"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".665"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7777"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".745"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
